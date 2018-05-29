@@ -12,4 +12,11 @@
  *
  *= require_tree .
  *= require_self
+ //= require start_bootstrap/1-col-portfolio
+ //= require start_bootstrap/bootstrap
+ //= require start_bootstrap/bootstrap.min
  */
+
+@import "bootstrap-sprockets"
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap"
