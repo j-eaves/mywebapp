@@ -15,11 +15,12 @@
 //= require start_bootstrap/jquery
 //
 //= require jquery
+// Begin adding files for bootstrap
+//= require jquery3
+//= require popper
+// End adding files for bootstrap
 //= require jquery_ujs
 //= require rails-ujs
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
-
-
-
