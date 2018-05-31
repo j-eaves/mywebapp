@@ -1,0 +1,5 @@
+{
+  "test_page": "test/javascript/test_runner.html",
+  "launch_in_dev": ["PhantomJS"],
+  "src_files": ["tmp/**/*.js"]
+}

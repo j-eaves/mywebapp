@@ -10,17 +10,20 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require start_bootstrap/bootstrap
-//= require start_bootstrap/bootstrap.min
-//= require start_bootstrap/jquery
-//
-//= require jquery
-// Begin adding files for bootstrap
-//= require jquery3
+//= require turbolinks
 //= require popper
-// End adding files for bootstrap
+//= require jquery
+//= require jquery3
 //= require jquery_ujs
 //= require rails-ujs
-//= require turbolinks
 //= require bootstrap-sprockets
+//= require bootstrap/jquery/jquery
+//= require bootstrap/jquery/jquery.min
+//= require bootstrap/jquery/jquery.slim
+//= require bootstrap/jquery/jquery.slim.min
+//= require bootstrap
+//= require bootstrap/js/bootstrap
+//= require bootstrap/js/bootstrap.min
+//= require bootstrap/js/bootstrap.bundle
+//= require bootstrap/js/bootstrap.bundle.min
 //= require_tree .

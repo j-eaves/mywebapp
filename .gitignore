@@ -17,3 +17,10 @@
 /yarn-error.log
 
 .byebug_history
+/node_modules
+/app/frontend/scripts/templates
+/public/images
+/public/javascripts
+/public/stylesheets
+/public/rev-manifest.json
+/public/sm-*

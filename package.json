@@ -1,5 +1,46 @@
 {
-  "name": "mywebapp",
+  "name": "gulp-rails",
+  "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "devDependencies": {
+    "babel-runtime": "*",
+    "babelify": "*",
+    "browserify": "*",
+    "del": "*",
+    "es5-shim": "*",
+    "event-stream": "*",
+    "glob": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-css-globbing": "*",
+    "gulp-define-module": "*",
+    "gulp-handlebars": "*",
+    "gulp-jshint": "*",
+    "gulp-rev": "*",
+    "gulp-rev-replace": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "handlebars": "*",
+    "jquery": "*",
+    "jshint-stylish": "*",
+    "node-qunit-phantomjs": "*",
+    "qunitjs": "*",
+    "sinon": "*",
+    "require-dir": "*",
+    "run-sequence": "*",
+    "testem": "*",
+    "vinyl-buffer": "*",
+    "vinyl-source-stream": "*"
+  },
+  "scripts": {
+    "task": "./node_modules/gulp/bin/gulp.js",
+    "build": "NODE_ENV=production ./node_modules/gulp/bin/gulp.js",
+    "clean": "./node_modules/gulp/bin/gulp.js clean",
+    "watch": "./node_modules/gulp/bin/gulp.js watch",
+    "test": "./node_modules/gulp/bin/gulp.js test",
+    "testem": "./node_modules/testem/testem.js"
+  }
 }
